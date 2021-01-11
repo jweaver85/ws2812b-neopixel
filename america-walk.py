@@ -7,7 +7,7 @@ from collections import deque
 # Choose an open pin connected to the Data In of the NeoPixel strip, i.e. board.D18
 # NeoPixels must be connected to D10, D12, D18 or D21 to work.
 pixel_pin = board.D21
-sleepyTime = 0.05
+sleepyTime = 0.09
 STEP = 64 
 bright = .1
 num_pixels = 60 
